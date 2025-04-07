@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  overflow-y: scroll;
+}
+
+header {
+  background-color: #d3d3d3;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.welcome {
+  flex: 2;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.features {
+  border: 2px solid green;
+  padding: 20px;
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.marketplace {
+  flex: 1;
+}
+
+.marketplace h2 {
+  margin-bottom: 10px;
+}
+
+#market-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.market-card {
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.friends-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.friend-card {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
